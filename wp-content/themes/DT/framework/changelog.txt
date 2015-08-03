@@ -1,0 +1,903 @@
+
+8.3
+----------------------------
+
+fixed issue with listing submission amount
+fixed issue with some servers and language options
+fixed issue with some servers and custom field display
+fixed styling issue with map items
+fixed radius display for KM display
+fixed admin button (front end editor) style issue
+fixed issue with child theme creation
+
+added on/off switch for listing renewals
+
+redesigned search page
+redesigned author widget
+redesigned star system
+
+recoded distance search
+recoded comments form
+
+added click counter for outbound links
+
+added new admin options for per page widths
+added new admin options for additional header styles
+added new admin options for displaying media upload types
+added defaults for mobile web display
+
+MJ added attachments to workflow
+MJ fixed house percentage
+AT added bid count to admin page
+
+
+8.2
+----------------------------
+
+updated bootstrap version to 3.3.4
+updated the CSS font awesome to 4.3.0
+
+updated WP 4.2 issue with comments
+updated WP 4.2 issue with deleting membership paackages
+
+updated tpl-add media upload and management interface
+updated "top of category" and removed double display of results
+updated default framework theme (no core theme activated)
+
+added option for users to pay with website credit
+added CSS for animation (beta)
+added auto language detection based on users country (beta)
+
+large number of core code changes, optimzations and tweaking
+
+8.1
+----------------------------
+
+updated Bootstrap version 3.3.1
+
+added mass delete for notifications (messages)
+
+updated GEO map zipcode results issue
+
+SO fix for default download options
+
+AT - fixed payment bug
+
+8.0
+----------------------------
+
+fixed WP gallery ordering issue
+fixed renewal price on listing with valid membership
+fixed expiry date for newly purchased listings
+
+SP - minor fix for country/tax options
+
+MJ - added new add-ons section
+MJ - added house percentage
+
+minor CSS adjustments
+ 
+
+6.6.7
+---------------------
+updated geomap on listing page
+update content page names
+
+star rating on/off applies to comment rating
+
+6.6.6
+---------------------
+fixed issue with coupon codes 
+fixed issue with carousel object
+fixed css issue with google map button
+fixed admin order display issue
+fixed bug in live reports linking to invalid order
+
+updated FAVS shortcode with new bubble alert
+
+updated listing page google map selection
+
+
+6.6.5
+---------------------
+major core code adjustments, 90% of files adjusted.
+seperated code and content for WP child theme customizations
+
+
+6.6.4
+---------------------
+
+updated home page object editor
+updated video support to include iphone/ipads (youtube)
+
+added show/hide for mailing list emails
+
+added star rating to comments
+
+auction theme - added on/off for buy now
+auction theme - added relist option
+aucton theme - added on/off for shipping theme
+auction theme - fixed left/right sidebar option for auction listing menu on listing page
+auction theme - added user feedback to authors profile page
+
+
+6.6.3
+--------------------------
+
+added nofollow to multiple inbound links which were clogging up SEO reports
+added live reports to reporting section
+
+removed default WP /feed/ links for listing and category pages resulting in large amounts of 404 errors.
+
+removed PremiumPress powered by options.
+
+fixed css issue with search box style 3
+
+
+6.6.2
+-------------------------
+
+added support for woo commerce
+
+added extra options for the home page category object
+added 24 hours extra to membership package expire dates (to prevent memberships expirying before renewal payments kick-in)
+
+fix issue with images
+fixed issue with full page carousel displaying extra column
+
+adjusted the_content shortcode to support filtering
+
+
+6.6.1
+-------------------------
+
+added itemscope data
+added Google map region/language settings
+
+fixed issue with admin email editor
+
+re-developed category selection tool on listing page
+
+updated blog category display pages
+updated fontawsome to 4.1.0
+updated admin edit attachment tab
+new home page slider object
+
+updated video player
+
+v6.5.9 / 6.6.0
+-------------------------
+
+updated Bootstrap to v3.2.0
+
+new home page slider integration
+new home page objects
+
+added auto attachment deletion when user deletes listings
+
+fixed error on registration page
+fixed css issue with google map zoom icon
+fixed listing renewal enhancement issue
+fixed issue with job theme proposal email not saving
+fixed issue with map re-loading when left empty
+
+
+v6.5.8
+-------------------------
+
+updated child theme creator tool
+
+added on/off option for user photo upload
+added membership access per page
+added hyperlinked email for custom fields
+added (order_data) shortcode for admin 'new order' email
+added membership restriction for reading messages
+added membership creation date for checking against existing listings (new memberships only)
+added membership renewal to myaccount page
+added GEO distance option to admin -> general setup tab.
+
+ST - fixed issue with coupon code saving
+DA - added extra space for new gender options
+
+fixed issue with taxonomy list populating
+
+language file updates
+
+6.5.7
+-------------------------
+
+added gallery image ordering options
+added user photo options (removed need for plugin)
+
+updated menu class to support css icons
+
+changed footer social icons, allowed custom icons
+
+AT - fixed issue with displaying expired auctions
+ST - fixed issue with weight based shipping
+
+
+6.5.6
+-------------------------
+fixed 'my location' displaying twice
+fixed [IMAGES] shortcode in print page
+
+updates newsletter widget
+
+added email test option for admin emails
+added new language upload options
+
+moved language settings to its own page
+
+6.5.4/5
+--------------------
+fixed map
+fixed language
+fixed shortcodes
+fixed featured tick on/off
+updated geo flag icon and added selecition tool
+updated geo default coords to work with those set for add listing google map
+
+coupon theme fixed date
+
+6.5.3
+--------------------
+fixed bug with contact form values not sending
+fixed bug with advanced search zipcode searches
+fixed bug with adding media into custom objects
+fixed [RELATED] shortcode issue
+fixed bug with zipcode searches
+
+added font awesome within the core framework
+
+added ICON shortcode: [ICON id='phone' fa=1]
+added DISTANCE shortcode: [DISTANCE unit='' icon='' text_after='']
+added new GOOGLE MAPS object
+added new 'below header' object placement
+added option to disable parent category selection for adding listings
+added option for unclocking user submitted custom field links
+
+price comparison theme - update compare by title
+
+updated lanuage file with new values
+
+optimized core search code
+
+6.5.2
+----------------------
+updated due to left constant in functions.php file
+
+
+6.5.1
+-----------------------
+fixed issue with taxonomy filtering on advanced search
+fixed issue with html in google map item descriptions
+fixed issue with WordPress 3.9 TB_overlay
+
+
+6.4
+-----------------------
+
+added required on/off option for Google maps
+added color options for mobile menu
+
+updated the add/edit listing display for the admin
+updated toolbox function to pending listings
+
+shop theme - fixed shipping cost issue for guest checkout
+shop theme - adjusted attribute space for longer titles
+shop theme - added free ship for all regions option
+
+6.3 25th Feb 2014
+-----------------------
+
+added option to remove first/last name from members details tab
+added option for added conversion code to the callback page via the admin
+
+updated mobile menu
+updated registeration text depending on password enabled settings
+updated date function to include translations
+
+fixed ordering of custom fields in the admin
+fixed issue with FILES shortcode
+fixed issue with deleting posts
+fixed mailing list widget bug in IE11
+fixed issue with order manager display on multisite
+fixed issue with coupon percentage discounts
+
+auction theme - fixed House Percentage Bug
+
+job board - changed mid display for author only
+job board - adjusted wording for applying for jobs
+job board - added link for viewing items bid on 
+
+6.2 12th Feb 2014
+-----------------------
+fixed unclosed tag in the class file for content page
+
+added featured listing styles in admin under design setup
+
+CM - fixed price issue
+
+
+6.1 12th Feb 2014
+-----------------------
+added new rating button styles
+added ip log for rating to prevent double votes
+added new reports function
+added defaults for advanced search (select box)
+added recent searchs tab to overview (stores list of user search queries)
+
+updated free renewal to auto publish
+updated breadcrumbs to include parent category when viewing sub category
+updated admin display setup page layout
+updated generals setup -> moved logo here
+updated admin views orderby
+
+fixed issue with saving raw css in admin under design setup
+fixed category import bug (downloaded child theme instead)
+fixed tabbing index on registration page
+fixed navigation numbering issue
+fixed bug with advertising banner display
+
+shop theme - fixed weight based shipping price issue
+shop theme - added guest checkout option (general setup -> registration tab)
+shop theme - updated flat rate so it doesnt require user to set ship/tax on
+
+auction theme - added shipping costs per item
+auction theme - fixed reserve price label 
+auction theme - renewal issue for existing price data
+
+6.0 3rd feb
+-------------------
+fixed header.php pop-up error
+
+
+5.9 3rd Feb 2014
+--------------------------------
+
+improved the banner ad system
+improved the design tools
+improved the category object on mobile view to smaller display
+
+relocated the 'create child theme tab'
+
+added seperate 'extra designs' button for viewing child themes
+added renewal for free listing
+added links navigation object
+
+fixed in_category widget conditional tag
+fixed issue with multiple country search fields
+fixed country/state/search
+fixed map report
+fixed css issue with carousel without title
+
+updated LISTINGS shortcode with custom hook
+
+5.8 27th Jan 2014
+--------------------------------
+
+fixed type in new order email stopping it from being sent
+fixed title shortcode for claim listing email
+fixed slashes in registration fields
+fixed advanced search on mobile devices
+fixed user edit screen custom account message display
+fixed display issue with email manager
+fixed language file option for child themes
+fixed membership packages icon upload button
+
+added comment confirmation
+added quick link for attachments
+added quick validation for price field
+added seperation for search/nav on mobile menu
+added first/last name to members area
+added extra fallback for non-username in emails
+added meta tag image_src to listing page meta areas
+added email export tool
+added order data export tool
+added user listing count to the WP admin users panel
+added hidden display of create listing in my account if membership package submission limit is 0
+
+shop theme - added option to display tax per product
+shop theme - added quick add for EU countries
+shop theme - added user comments to checkout
+shop theme - fixed admin image upload bug
+shop theme - fixed display of unwanted fields in admin/edit/product
+shop theme - fixed issue with country shiping with extra shipping methods
+shop theme - fixed issue with order total going to 0 when saving
+shop theme - fixed shipping country price saving issue
+
+auction theme - removed buy now if current price is greater
+auction theme - adjusted first bid logic
+
+comparion theme - gallery id's in comparison table
+comparion theme - fixed child theme issue
+
+
+5.7 7th Jan
+----------------
+added back missing columns for posts search in the admin
+added on/off for listing status
+
+updated membership page in the admin
+updated admin page setup design slightly for easier access
+css - fixed featured item color issue
+
+comparison theme - updated display query 
+
+shop theme - fixed array issue at checkout
+shop theme - removed delivery address line two from being required
+
+5.6 1st Jan 2014
+----------------
+
+added emoticon option to comments
+added Google map display if no using listing packages
+added membership level listing access options
+added new order emails
+
+updated the admin listings overview
+updated/removed query option for the Google map homepage object and replaced itt with option to ser the number of display listings.
+
+fixed issue with listings charged when assigned to a membership package 
+fixed issue with listing prices
+fixed iphone5 and ipad mini menu issues
+
+shop theme - added option to select related products
+shop theme - fixed flat rate percentage shipping price issue
+shop theme - added attribute name to checkout display
+shop theme - added delivery fields as required fields
+shop theme - fixed bug with required color field
+shop theme - added upload button for downloads
+shop theme - added weight based shipping
+
+5.5 
+-----------------------------
+
+added supoprt for all hidden packages
+added email shortcodes to subject
+added new widget condition for blog pages
+added delete all option for mailing list emails
+added support for 100% off coupon codes
+added category name and link to breadcrumbs
+added featured listing styles to child theme globals file
+added fix for Google map not updating lat/long if user clicked continue to quickly
+added 'featured' tag to the LISTINGS shortcode. ([LISTINGS featured=true])
+added blog home page object
+added global option to disable expiry functionality
+
+updated callback to check against author ID instead of payment email address
+updated orderby value results
+
+fixed issue with required fields when taxonomy fields are added
+fixed issue with some browsers display Google map in search results
+fixed issue with comments on blog posts
+fixed issue with featured listing top of results
+fixed paypal account issue for encrypted callbacks
+fixed issue with reg memberships not updating and promoting user for payment
+fixed issue with advanved search orderby when using multiple custom fields
+fixed issue with free memberships selection on some old browsers
+fixed comment display including non-approved comments.
+
+removed admin option for no image (caused too much confused for users)
+
+shop theme - added label for 0 = out of stock
+shop theme - fixed display of 'add cart' on blog posts
+
+auction theme - stopped users bidding on their own items
+
+3.8 fixed drag/drop issue with homepage objects
+
+5.4 23nd OCT
+-----------------------------
+added comments form validation code to prevent spam.
+added option to delete all comments under the tools tab
+added option to delete all custom fields under tools tab
+added option to change category slug
+added auto slide for homepage slider
+added [BTN] shrotcode
+
+fixed issue with advanced search on multisite
+
+updated admin custom field indexing to fix deletion issue
+updated dashboard listing count
+
+[action theme] removed half bid for new auction items
+[action theme] fixed missing icons
+[action theme] updated contact buyer link
+
+
+5.3 15th SEP
+-----------------------------
+added title display field type for submission fields
+added option to display map open (by default) on search results
+added curreny change to main page
+added date formatted displays for custom field
+added [youtube] custom field option.
+
+removed sticker from featured listing
+removed country/state/city from mobile search to fix browser conflicts
+
+fixed recent activity display in admin
+fixed 'display no image' on listing page
+
+[auction theme] added option to turn off user selectable auction length.
+[auction theme] fixed multi email issue for auction end
+[auction theme] fixed issue with house percentage
+[auction theme] added buy_link for ebay plugin
+
+[coupon theme] issue with coupon code saving
+
+[shop theme] fixed issue with per product discount
+
+5.2 30th SEP
+-----------------------------
+added print page template to admin display setup -> content layouts
+added listing/membership chart + transfer tools
+added child theme download to admin area
+added sample child theme download tool
+added option to include pages/posts in search results
+added fix for blank text widget titles
+added 'grid' option to [LISTINGS] shortcode
+added [ADVANCEDSEARCH] shortcode
+added options to turn on sidebars in mobile view
+added basic email descriptions/ help text
+added additional map fallbacks for country/city values with Google map 'locality' values
+added option to change listing post_type via the admin -> edit listing
+
+updated messages to include previously added content and RE: in title.
+
+updated upgrade list to exclude hidden packages
+updated 'hide expired' to include all home page objects
+updated it so users can see their own listings even if 'hide expired' is set
+updated widget conditions to use listing category list
+updated [RELATED] to include only items in the same category
+
+[action theme] - added buy now price to search page if not listing price was found
+[action theme] - added custom field for user to choose the auction length
+[action theme] - stopped users bidding on their own auction (except the admin)
+[action theme] - added reserve price display
+[action theme] - added new shortcodes [BIDCOUNT]
+[action theme] - removed $ in price image and set to use core currency value
+[action theme] - added display values to ended auction listings
+
+
+
+5.1 21th SEP
+-----------------------------
+updated country/state/city display order. A-z
+
+fixed bug with memberships on registration page.
+[action theme] - fixed issue with multiple bids of the same amount.
+
+
+5.0 20th SEP
+-----------------------------
+added video tutorials to admin pages
+added timezone settings to inegrate with WP admin options.
+fixed error in theme update (widgets)
+
+[action theme] - fixed error is message username
+
+[shop theme] - fixed empty basket issue
+
+4.9  19th Sep
+-----------------------------
+added option to set memberships on the registration page
+added an extra set of Google map settings for search results
+added recurring payments to cover membership packages
+added multiple selection box to advanved search
+
+updated template files to support child theme external files.
+
+[coupon theme] - fixed error with saving dates
+
+[shop theme] - fixed child themes
+
+4.8  16th Sep
+-----------------------------
+redeveloped child theme setup/installation
+added theme auto update tool
+added on/off option to show sub categories of viewed parent category
+added basic translations for default listing page layout
+added email valiate to register page
+
+updated Google map controls
+added search results map to include zoom/long/lat options
+updated custom slug to include category.
+
+[coupon theme] - fixed error in coupon display
+[coupon theme] - added option to turn off default fields.
+
+[action theme] - fixed bidding price issue
+
+[shop theme] - fixed curreny value mixup (EUR and GBP)
+
+4.7 11th Sep
+-----------------------------
+added custom slug option for default post_type (listing).
+added the video tutorials to the admin tab.
+added 404 permalink refresh link for new users.
+updated membership listing count prevent users from adding an additional listing
+updated the language file
+updating admin display for prices with extra zeros
+fixed percentage discount coupon for package listings
+moved [TIMELEFT] shortcode to core
+updated [TIMELEFT] shortcode to include timezone offset
+added option to change /listing/ slug via WordPress permalinks page.
+removed file attachment display for packages with 0 uploads permitted
+added option for video image to be display image if no other image is found.
+ 
+[shop theme] - added quick add option for USA states
+[shop theme] - added free shipping options
+[shop theme] - updated the country/state to hold values
+[shop theme] - remove quick add for products with attributes
+[shop theme] - updated required attributes to include multiple instances.
+
+[coupon theme] - added option to change /store/ slug via WordPress permalinks page.
+[coupon theme] - adjusted hide expired to work for 'expiry_date' instead of 'listing_expiry_date'
+[coupon theme] - hard coded default fields
+
+[action theme] - fixed bidding form display for mobile devices
+[action theme] - added user paypal option
+[action theme] - adjusted house percentage to be taken from auction sale amount and set against user account
+
+
+4.6 4TH SEP 2013
+-----------------------------
+added additional email short code fallbacks for membership packages
+added additional text to the language file
+added direct link for packages (bypass selection page)
+added stripping of http:// links for non-html listing content
+added a user credit system for reimbursements/over payments/refunds etc.
+added listing upgrade options.
+fixed upload media for listings with only 1 image
+fixed slider 2 JavaScript issue
+fixed extra prompt/alert issue on listing page
+updated mailing list unsubscribe to delete user instead of unconfirmed them.
+updated city/state search to remove optional country parent
+updated message count function to support multisite/network
+updated default order-by issue.
+updated gallery to resolve mixed thumbnail issues
+updated CSS for tablets
+[auction theme] - added type option for auction or classifieds (buy now only)
+[auction theme] - added child theme support
+[auction theme] - added house percentage option
+[auction theme] - updated issue with listing length for non-packaged auctions
+[shop theme] - added required attribute option
+[shop theme] - updated country shipping loop
+[shop theme] - currency issue for items over 1,000
+[shop theme] - added integration for shopper press product attributes.
+[shop theme] - link issue at checkout
+
+
+4.5 27TH AUG
+----------------------------
+fixed print coupon error in the coupon theme
+fixed banner delete for some server setups
+removed plugin option from install overview (not required)
+added custom listing status message
+updated recent listings, home page object
+updated storeid search for coupon theme
+
+4.4 25TH AUG
+---------------------
+integrated WP forgotten password/reset page into core.
+integrated plugin system into core.
+adjusted admin prevention to allow auto redirect for usual admin functionality
+adjusted user registration on listing page to include username check
+removed the need for GD star, adding own star rating system. New shortcode: [RATING size=16]
+added child theme menu link
+added (unsubscribe) link to mailing list
+added custom text option for admin profile editing
+updated alot of the cart settings for stable release
+adjusted email filters to apply to themed messages only
+
+
+4.3 20TH AUG
+----------------------
+added built in plugin updater to core framework
+added additional expiry options per listing package
+added a hosting setup check list
+fixed enhancements issue
+fixed custom background to login/register page
+moved slider block under the breadcrumb block
+added fallback for hosting providers without mb_strlen
+added auto slide to home page carousel widget
+added expiry date to coupon print page
+added listing category to breadcrumbs for user to return to results
+added 'hide expired' under general setup which will remove expired listings from the search results page
+added javascript image resize for better image quality and removed old css resizing
+added code to stop users accessing the admin area
+added new slider options
+fixed numerous css issues
+
++ added shop theme to beta
+
+4.2 8TH AUG
+----------------------
+added FFMPEG support
+reworked entire image upload system, now supports all types and displays in gallery format
+added delete button for display image
+updated hit counter system
+removed admin clean up tool to save confusion
+added core fix for old theme upgrades using 'image' and 'images'
+fixed bbc email issue
+added option to turn off the default registration email
+updated membership payment display for full paid packages
+added update to set custom sticker of selected insetad of default 'featured' one.
+
+4.1 6th Aug 2013
+----------------------
+updated from sender email to use the admin email and not WordPress default
+turned back on custom fields and author for admin editing
+fixed bug with required fields on the my account page
+added validation to the add listing/fields/membership options in the admin
+added fix for admin no-image upload issue
+added for fix 0 package listing display
+updated the admin charts to make it bigger
+
+
+4.0 3RD AUG 2013
+----------------
+added a coupon code system
+fixed bug with child theme installation
+fixed media uploads for WordPress 3.6
+fixed mailing list issues for WordPress 3.6
+updated admin page layouts
+updated search to hold selected category value
+added shortcode [related-nobox]
+added option to use category icon in main menu display
+added a new category icon pack
+changed the menu system to hover instead of click to view sub menu items
+re-designed the admin interface for editing listings
+added new visitor hits tracker + location + display graphs
+cleaned up code for my account page
+added auto login for users who register with password
+added auto redirect if set
+
+3.9 1st Aug 2013
+------------------
+added support for user photos
+changed [IMAGE] to a WP core shortcode feature
+fixed bug with cat sub count display
+fixed map zoom and Google auto address element
+added ability to turn of custom register/login pages define('CUSTOMLOGINFORM', false);
+updated email edit function for anyone with issues
+fixed layout issue for packages
+updated/ tweaked some of the core styles
+adjusted zip function for auto to show user enter zip only
+added logout button to breadcrumbs
+added printable flag for coupons
+added new options for category object
+
+3.8 28th July 2013
+---------------------
+fixed package display issue
+fixed admin home block display issue
+removed alert box styles from package block
+removed alert box styles from 0 results page
+added automated market location for users entering addrees via listing pages
+set WP media thumbnail size to default thumbnail size of gallery images
+removed sliderbox for single images
+added option to set number of related items
+added breadcrumbs to home page (on/off)
+fixed carsousel display for mobile view
+updated memberships to include package element instead of keeping them seperate
+added option to set package as hidden
+update country/state/city to work indepenantly of each other
+added sub cat limit for home page category block
+updated the admin display for custom search results/listing page layouts
+updated the submisison page and blended the listing map object into the form layout
+added pretty photo for listing page images
+updated hit counter system
+updated language file
+added language file search tool
+updated framework to support child themes
+
+3.7 23nd July 2013
+---------------------
+fixed missing delete button for orders
+fixed paydata for callback
+added 'hide me' option to custom fields
+added 'tel:' link to phone fields
+added fix for no keyword search item
+added new hooks for price
+added remove option for registration security code
+added addition text to language file
+
+3.6 20TH July 2013
+-------------------
+fixed expiry date issue
+fixed google map on/off
+added new field for google map on listing edit
+added custom order by option
+added price per category
+added memberships to account page
+added custom enhancement options per listing/membership
+
+3.5 15TH July 2013
+-------------------
+updated home page navigation
+added radius search selection
+set to stable release
+
+3.4 12th July 2013
+----------------
+updated language file
+added new color picker options for admin
+
+3.3 11th July 2013
+----------------
+added new mailing list feature
+
+3.2 9th July 2013
+----------------
+added new google map object
+updated google map setings
+
+3.1 8th July 2013
+----------------
+added shortcodes for banners
+updated the object class
+re-designed the mobile menu interface
+added tabs object
+
+3.0 6th July 2013
+----------------
+added more hooks to the admin
+update the color tool and home page object class
+
+2.9 4th July 2013
+----------------
+added favorites list
+updated admin display text
+
+2.8 3rd July 2013
+----------------
+added new subscription email system
+added email hooks
+added admin pop-up boxes and support icons + new install text
+
+2.7 0 27th June 2013
+------------
+new message system
+listing renewal feature
+new admin controls
+
+2.6 - 14th June 2013
+----------------------
+new membership feature
+new package features (enhancements)
+new google map search tool
+re-arranged admin area
+new toolbox admin tab
+
+2.5 - 20th Feb
+---------------------
+fixed issue with orders showing in all member accounts
+added strip slashes to admin _1.php email box
+
+2.4 - 10TH FEB
+--------------------
+fixed issue with viewing own listing
+fixed delete issue with custom fields in admin
+added 'publish' status for free listing
+fixed issue with package custom fields only displayed on those listings set
+
+2.3 - 1st Feb 2013
+-------------------
+add FILES type='' option shortcode
+added welcome email
+fixed directory search issue
+fixed payment issue from 2.2
+
+2.2 - 23rd Jan 2013
+------------
+re-developed the home page object system so they save when moved.
+added-multipl uploads for new listings
+added display image to the gallery array
+
+2.1 - 18th Jan 2013
+------------
+add a new admin hooks for editing listings. hook_edit_fields_metabox

@@ -1,0 +1,85 @@
+<?php
+use \hji\common\models\Alerts;
+
+if (!empty($alerts))
+{
+    $items = $alerts->getAlerts(Alerts::INFO);
+
+    if (!empty($items))
+    {
+
+            foreach ($items as $alert)
+            {
+                $dismiss = ($alert['dismiss']) ? ' dismiss' : '';
+                ?>
+                <div class='alert alert-info fade in<?php echo $dismiss ?>'>
+                <?php
+
+                    echo $alert['message'];
+
+                ?>
+                </div>
+            <?php
+            }
+    }
+
+    $items = $alerts->getAlerts(Alerts::ERROR);
+
+    if (!empty($items))
+    {
+
+        foreach ($items as $alert)
+        {
+            $dismiss = ($alert['dismiss']) ? ' dismiss' : '';
+            ?>
+            <div class='alert alert-danger fade in<?php echo $dismiss ?>'>
+                <?php
+
+                echo $alert['message'];
+
+                ?>
+            </div>
+        <?php
+        }
+    }
+
+    $items = $alerts->getAlerts(Alerts::SUCCESS);
+
+    if (!empty($items))
+    {
+
+        foreach ($items as $alert)
+        {
+            $dismiss = ($alert['dismiss']) ? ' dismiss' : '';
+            ?>
+            <div class='alert alert-success fade in<?php echo $dismiss ?>'>
+                <?php
+
+                echo $alert['message'];
+
+                ?>
+            </div>
+        <?php
+        }
+    }
+
+    $items = $alerts->getAlerts(Alerts::WARNING);
+
+    if (!empty($items))
+    {
+
+        foreach ($items as $alert)
+        {
+            $dismiss = ($alert['dismiss']) ? ' dismiss' : '';
+            ?>
+            <div class='alert alert-warning fade in<?php echo $dismiss ?>'>
+                <?php
+
+                echo $alert['message'];
+
+                ?>
+            </div>
+        <?php
+        }
+    }
+}

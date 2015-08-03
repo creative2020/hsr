@@ -1,0 +1,122 @@
+﻿== Changelog ==
+
+= 2.5.2 =
+* Added new option that enables automatic post filtering by the current post/page author.
+* Added new option that enables author thumbnails to be linked to the relative author archive.
+* Added new options to select which post image index should be picked up within the post content when no featured image is available
+* Added even/odd css classes for alternate backgrounds.
+* Added new option that enable widget links to open in a new window.
+* Added new option that enable user to add a custom date prefix.
+* Added new control on widget title link that fixes missing http prefix.
+* Fixed issue that prevented a correct enumeration of skipped posts without images.
+* Fixed wrong count of post items when in random mode.
+* Fixed broken settings link in the plugin description.
+* Fixed wrong div closure when in multi-column layout mode.
+* Applied some small bug fixes.
+
+= 2.5.1 =
+* Added new option to define the widget title HTML header.
+* Added new option to define additional classes for the widget title.
+* Fixed not valid XHTML <img> tag.
+* Fixed bug that prevented category title to be displayed on pages.
+* Fixed bug that prevented tag <br> to be displayed when filtered by the "allowed tags" option in shortcodes.
+* Some CSS fixes.
+
+= 2.5.0 =
+* Fixed wrong category title when the auto category filter is on.
+* Fixed wrong words count when cutting strings.
+* Fixed wrong image path in wp multi site.
+* Added a new option for the auto filtering mode, to show posts of the same category in the single post page.
+* Added al missing image attributes of width and height. This should solve some browser rendering problem.
+* Removed the !important attribute from css-front.css.
+
+= 2.4.9 =
+* Fixed a bug that prevented thumbnails to be displayed on some Multi-Site enviroments.
+
+= 2.4.8 =
+* Changed main class name from 'SpecialRecentPosts' to 'SpecialRecentPostsPro' to ensure compatibility with the FREE edition
+* Minor bugs fixed
+
+= 2.4.7 =
+* Crucial fixes in the jquery handling.
+* Better handling of stylesheets and scripts loading within the admin pages. This should solve many theme incompatibility issues.
+* Added a new css class to the widget title to improve its customization.
+* Fixed bug that prevented visualization on stati front pages.
+
+= 2.4.6 =
+* Fixed wrong method call that leaded to some syntax error while activating the plugin.
+* Removed post title link on future and draft posts.
+
+= 2.4.5 =
+* Added support for NextGen Gallery. Now if you set a post featured image by using the NextGen panel, it will show up instead of the no-image placeholder.
+* Main CSS now included via link in the header section. No more plain css text in the <head> tag. CSS now must be edited opening css-front.css via a text editor.
+* Fixed wrong link in plugin description.
+* Fixed wrong title when using category title filtering.
+
+= 2.4.4 =
+* Fixed wrong position of widget title.
+* Fixed duplicated ID on single posts instances.
+* Added option to filter posts that belong exclusively to both 2 or more categories.
+* Added option to sort posts in alphabetical order.
+* Fixed wrong floating clearer. Using <div> instead of <br> tag.
+* Fixed wring avatar image dimensions.
+
+= 2.4.3 =
+* Fixed Bug that prevented correct saving of international filenames with special characters.
+* Fixed multi-column view mode.
+* Fixed unwanted white space before category/tag separator.
+
+= 2.4.2 =
+* Fixed Bug that prevented correct visualization when using PHP external calls or Shortcodes.
+
+= 2.4.1 =
+* Fixed Wrong Layout HTML.
+
+= 2.4 =
+* Fixes for Wordpress 3.3
+* Added a new option to automatically switch the recent posts list according to the current viewed category page. (Under Filtering Panel)
+* Fixed a bug that prevented correct thumbnails visualization on Chrome and Safari.
+* All SRP warnings and notices have now been moved within the SRP Control Panel.
+* Added a text string break for post titles.
+* Added a new option to display author's avatars as post thumbnails
+* Added a new date format option: 'Time Ago'.
+* Added new option: Visualization Filter.
+  Now you can choose where the SRP widgets should appear.
+  Available Options: Home Page, all Posts, All Pages, All Categories, All Archives, Everything
+
+= 2.3 =
+* Resolved Encoding Characters bug.
+
+= 2.2 =
+* Minor bugs fixed.
+
+= 2.1 =
+* Added WP Multi-Site Support.
+
+= 2.0 =
+* Added new options to order posts/pages by last updated and most commented.
+* Added new section for shortcode and php code generation directly from widget panel.
+* Added new option to filter posts by tags.
+* Added new option to include sub-pages when in filtering mode.
+* Added new option to assign different css classes and Ids for each widget instance.
+* Added new option to link the entire excerpt to post.
+* Added new option to filter posts by Custom Field Meta Key and Meta Value.
+* Added layout section: now you can switch between single column mode, single row mode, and multiple columns mode.
+* Added new option to retrieve thumbnails from custom fields.
+* Added new option to skip posts without images.
+* Added compatibility Mode with WPML Translator Plugin.
+* Added category exclusion Filter.
+* Added two more options to enable/disable Author links and Category Title Links.
+* Added post tags visualization with optional PREFIX and Separator.
+* Added post category visualization with optional PREFIX and Separator.
+* Added post author visualization with optional PREFIX.
+* Added new option to disable plugin stylesheet.
+* Added new option to display post titles above the thumbnails.
+* Added cache support. Now thumbnails are stored in a special cache folder for better performance and less load on server.
+* Added new option to link the widget title to a custom URL.
+* Added a new option to display post titles without link.
+* Improved tag rebuilding when allowed tags option is on.
+* XAMPP compatibility issue fixed.
+* Improved image retrievement process.
+* Brand new dynamic widget interface.
+* Many bugs fixed.

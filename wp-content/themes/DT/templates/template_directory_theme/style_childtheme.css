@@ -1,0 +1,15 @@
+ /* =============================================================================
+  CHILD THEME GLOBAL STYLES
+   ========================================================================== */
+
+ 
+.wlt_directory_theme .wlt_search_results.list_style .itemdata .pull-right { display:none; }
+
+.wlt_directory_theme .wlt_search_results .wlt_shortcode_distance {
+    position:absolute;
+    left:0;
+    background:#717171;
+    color:#fff;
+    padding:5px;
+    bottom:0
+}

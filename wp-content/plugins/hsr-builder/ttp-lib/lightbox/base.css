@@ -1,0 +1,289 @@
+/* kind of reset thing */
+html
+{
+    height: 100%;
+}
+body
+{
+    position: relative;
+    width: 100%;
+    min-height: 100%;
+}
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section
+{
+    display: block;
+}
+*
+{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    outline: 0px;
+    vertical-align: top;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+/* frame */
+body
+{
+    background-color: #eeeeee;
+    background-image: url("/i/bright_squares.png");
+    background-position: 0px 0px;
+    background-repeat: repeat;
+    font-family: "Terminal Dosis Light", cursive;
+    font-size: 16px;
+    color: #444444;
+    text-shadow: 1px 1px 1px #ffffff;
+}
+header>h1
+{
+    padding: 15px 5%;
+    font-size: 64px;
+    text-shadow: 1px 1px 2px #ffffff;
+}
+header>h1>span
+{
+    color: #808080;
+
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+}
+    header>h1>span:hover
+    {
+        color: #444444;
+    }
+    header>h1>span.sep:hover
+    {
+        color: #666666;
+    }
+/* footer */
+footer
+{
+    position: absolute;
+    display: table;
+    left: 0px;
+    bottom: 0px;
+    height: 80px;
+    width: 100%;
+    padding: 0px 5%;
+    color: #a5a5a5;
+    font-size: 12px;
+    border-top: 1px solid #000000;
+    background-color: #444444;
+    text-shadow: none;
+    z-index: 2;
+    background-image: url("/i/denim.png");
+    background-position: top left;
+    background-repeat: repeat;
+    text-shadow: 0px -1px 1px #222222;
+}
+footer a
+{
+    color: #a5a5a5;
+    text-decoration: none;
+}
+    body>footer a:hover
+    {
+        text-decoration: underline;
+    }
+footer p
+{
+    text-indent: 0px;
+    display: table-cell;
+    vertical-align: middle;
+}
+#copyright
+{
+    width: 30%;
+    background-position: 5px center;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    text-align: left;
+}
+#links
+{
+    width: 30%;
+    text-align: right;
+}
+#browsers
+{
+    width: 40%;
+    font-size: 13px;
+    color: #ffffff;
+    text-align: center;
+}
+/* common */
+p
+{
+    margin: 0.5em 0px;
+    text-align: justify;
+}
+/* elements */
+section.example
+{
+    position: relative;
+    margin: 20px auto;
+    padding: 30px 0px 100px;
+    width: 90%;
+    text-align: center;
+
+    -webkit-animation-name: developing;
+    -webkit-animation-duration: 1.5s;
+    -moz-animation-name: developing;
+    -moz-animation-duration: 1.5s;
+}
+ul>li
+{
+    list-style: none;
+}
+/* extra stuff */
+#loading
+{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 0px;
+    height: 0px;
+    margin-left: -24px;
+    margin-top: -24px;
+    background-image: url("/i/loading.png");
+
+    -webkit-animation-name: rotating;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-name: rotating;
+    -moz-animation-duration: 2s;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: linear;
+}
+#github
+{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 180px;
+    height: 180px;
+    overflow: hidden;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+}
+#github>a
+{
+    position: absolute;
+    display: block;
+    top: 55px;
+    right: -55px;
+    width: 240px;
+    height: 30px;
+    line-height: 30px;
+    background-color: #444444;
+    background-image: url("/i/denim.png");
+    background-position: top left;
+    background-repeat: repeat;
+    border-top: 1px dashed #eeeeee;
+    border-bottom: 1px dashed #eeeeee;
+    font-size: 14px;
+    color: #e0e0e0;
+    text-align: center;
+    text-shadow: none;
+    text-decoration: none;
+
+    -webkit-box-shadow: 0px 1px 1px #444444, 0px -1px 1px #444444;
+    -moz-box-shadow: 0px 1px 1px #444444, 0px -1px 1px #444444;
+    box-shadow: 0px 1px 1px #444444, 0px -1px 1px #444444;
+
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+}
+    #github>a:hover
+    {
+        color: #ffffff;
+    }
+/* keyframes */
+@-webkit-keyframes rotating
+{
+    0%
+    {
+        top: 50%;
+        left: 50%;
+        width: 48px;
+        height: 48px;
+        opacity: 1;
+        -webkit-transform: rotate(0deg);
+    }
+    100%
+    {
+        top: 50%;
+        left: 50%;
+        width: 48px;
+        height: 48px;
+        opacity: 0;
+        -webkit-transform: rotate(360deg);
+    }
+}
+@-moz-keyframes rotating
+{
+    0%
+    {
+        top: 50%;
+        left: 50%;
+        width: 48px;
+        height: 48px;
+        opacity: 1;
+        -moz-transform: rotate(0deg);
+    }
+    100%
+    {
+        top: 50%;
+        left: 50%;
+        width: 48px;
+        height: 48px;
+        opacity: 0;
+        -moz-transform: rotate(360deg);
+    }
+}
+@-webkit-keyframes developing
+{
+    0%
+    {
+        opacity: 0;
+    }
+    80%
+    {
+        opacity: 0;
+    }
+    100%
+    {
+        opacity: 1;
+    }
+}
+@-moz-keyframes developing
+{
+    0%
+    {
+        opacity: 0;
+    }
+    80%
+    {
+        opacity: 0;
+    }
+    100%
+    {
+        opacity: 1;
+    }
+}
+/*
+ * Here goes firefox only stuff
+ */
+@-moz-document url-prefix()
+{
+/* add your ff-only stuff below */
+    footer
+    {
+        width: 90%;
+    }
+/* add your ff-only stuff above */
+}

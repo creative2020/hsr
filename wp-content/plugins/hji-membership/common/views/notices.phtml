@@ -1,0 +1,41 @@
+<?php
+    use \hji\common\models\Notices;
+
+    if (!empty($notices))
+    {    
+        $items = $notices->getNotices(Notices::INFO);
+    
+        if (!empty($items))
+        {
+?>
+            <div class='updated fade'>
+<?php
+                foreach ($items as $notice)
+                {
+?>                    
+                    <p><?php echo esc_html($notice) ?></p>
+<?php                    
+                }
+?>                
+            </div>
+<?php
+        }
+
+        $items = $notices->getNotices(Notices::ERROR);
+    
+        if (!empty($items))
+        {
+?>                
+            <div class='error'>
+<?php
+                foreach ($items as $notice)
+                {
+?>
+                    <p><?php echo esc_html($notice) ?></p>
+<?php
+                }
+?>
+            </div>
+<?php                
+        }
+    }

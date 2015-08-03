@@ -1,0 +1,274 @@
+/*
+ * Widget Ninja
+ * (c) 2011. Web factory Ltd
+ */
+
+.wn_status {
+  width: 90%;
+}
+
+.hook_options ul li {
+  background-color: #B1DFF5;
+  border: 1px solid #4DB6E8;
+  color: #333;
+  float: left;
+  font-weight: bold;
+  margin-bottom: 3px;
+  margin-right: 3px;
+  min-height: 25px;
+  padding: 0px 5px 0px 5px;
+}
+
+.dialog_loading_container {
+  background-color: #AAA;
+  filter: alpha(opacity=60);
+  khtml-opacity: 0.6;
+  moz-opacity: 0.6;
+  ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+  opacity: 0.6;
+  height: 100%;
+  left: 0;
+  opacity: 0.3;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1001;
+  text-align: center;
+  padding-top: 300px;
+}
+
+#dialog li.wn-selected {
+  background-image: url("../images/check_mark.png");
+  background-position: top right;
+  background-repeat: no-repeat;
+  color: #ff0;
+  padding-right: 30px;
+}
+
+h4.wn-title {
+  clear: both;
+  display: block;
+  float: left;
+  font-size: 13px;
+  margin: 25px 0 10px 0;
+  width: 100%;
+}
+
+.hook_options ul {
+  border: 1px dashed #DFDFDF;
+  border-radius: 6px;
+  display: block;
+  float: left;
+  min-height: 34px !important;
+  moz-border-radius: 6px;
+  padding: 9px 8px 5px 8px;
+  webkit-border-radius: 6px;
+  width: 95%;
+}
+
+.extra-vis.active {
+  color: #499534;
+}
+
+.extra-vis.inactive {
+  color: #dd3939;
+}
+
+.wn-drag-description {
+  float: left;
+  font-size: 11px;
+  font-style: italic;
+  margin: -5px 0 10px 0;
+  width: 100%;
+}
+
+.hook_options ul li.active, .hook_options ul li.available {
+  background: url(../images/gray-grad.png) repeat-x left top #DFDFDF;
+  border: 1px solid #DFDFDF;
+  border-radius: 6px;
+  color: #000;
+  float: left;
+  font-size: 11px;
+  font-weight: normal;
+  line-height: 25px;
+  margin: 0 5px 5px 0;
+  min-height: 25px;
+  moz-border-radius: 6px;
+  padding: 1px 9px 1px 9px;
+  text-shadow: 0 1px 0 #FFFFFF;
+  webkit-border-radius: 6px;
+}
+
+.hook_options .active_tags li{
+  filter: alpha(opacity=100);
+  khtml-opacity: 1;
+  moz-opacity: 1;
+  ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  opacity: 1;
+}
+
+.hook_options .inactive_tags li{
+  filter: alpha(opacity=60);
+  khtml-opacity: 0.6;
+  moz-opacity: 0.6;
+  ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+  opacity: 0.6;
+}
+
+.hook_options ul li {
+  cursor: move;
+}
+
+.hook_options ul li:hover {
+  filter: alpha(opacity=100);
+  khtml-opacity: 1;
+  moz-opacity: 1;
+  ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  opacity: 1;
+}
+
+.hook_options ul li img, .help img {
+  margin: 0 0 -3px 3px;
+}
+
+#wn-info-message {
+  float: left;
+  margin: 10px 0 -10px 0;
+  width: 100%;
+}
+
+#wn-info-message p {
+  color: #dd3939;
+  font-size: 11px;
+  font-style: italic;
+}
+
+.wn-ui-custom-text {
+  border-top: 1px dotted #CCCCCC;
+  bottom: 0;
+  clear: both;
+  display: block;
+  font-size: 12px;
+  font-style: italic;
+  margin: 25px 0 0 0;
+  padding: 12px 0;
+  position: absolute;
+  width: 90%;
+}
+
+#dialog {
+  padding: 15px;
+}
+
+.ui-dialog-title {
+  text-align: left !important;
+  line-height: 25px;
+}
+
+.wp-dialog .ui-dialog-titlebar-close {
+  top: 5px;
+}
+
+/* Tipsy */
+.tipsy {
+    margin-top: -8px;
+    padding: 5px;
+    font-size: 10px;
+    position: absolute;
+    z-index: 100000;
+}
+
+.tipsy-inner {
+    padding:          5px 8px 5px 8px;
+    background-color: black;
+    color:            white;
+    max-width:        350px;
+}
+
+.tipsy-inner {
+    border-radius:        3px;
+    -moz-border-radius:   3px;
+    -webkit-border-radius:3px;
+}
+
+.tipsy-arrow {
+    position:   absolute;
+    background: url('../images/tipsy.gif') no-repeat top left;
+    width:      9px;
+    height:     5px;
+}
+
+.tipsy-n .tipsy-arrow {
+    top:  0;
+    left: 50%;
+    margin-left: -4px;
+}
+
+.tipsy-nw .tipsy-arrow {
+    top:  0;
+    left: 10px;
+}
+
+.tipsy-ne .tipsy-arrow {
+    top:   0;
+    right: 10px;
+}
+
+.tipsy-s .tipsy-arrow {
+    bottom: 0;
+    left: 50%;
+    margin-left: -4px;
+    background-position: bottom left;
+}
+
+.tipsy-sw .tipsy-arrow {
+    bottom: 0;
+    left: 10px;
+    background-position: bottom left;
+}
+
+.tipsy-se .tipsy-arrow {
+    bottom: 0;
+    right: 10px;
+    background-position: bottom left;
+}
+
+.tipsy-e .tipsy-arrow {
+    top:        50%;
+    margin-top: -4px;
+    right:      0;
+    width:      5px;
+    height:     9px;
+    background-position: top right;
+}
+
+.tipsy-w .tipsy-arrow {
+    top:        50%;
+    margin-top: -4px;
+    left:       0;
+    width:      5px;
+    height:     9px;
+}
+
+.tipsy-close {
+    font-weight: bold;
+    text-align: right;
+    float:      right;
+    padding:    2px 7px 0px 5px;
+    margin:     2px;
+}
+
+.tipsy-close a {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+
+.tipsy-inner ul {
+    list-style-type:     circle;
+    list-style-position: inside;
+}
+
+#dialog a:active, #dialog a:focus {
+  color:#21759B;
+}

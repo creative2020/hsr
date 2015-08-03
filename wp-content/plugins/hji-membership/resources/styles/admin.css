@@ -1,0 +1,32 @@
+/* Menu icon is added via add_menu_page function */
+/*#toplevel_page_hji-membership .wp-menu-image*/
+/*{*/
+    /*background-image: url('../images/wp-menu-image.png');*/
+    /*background-position: 0px -28px !important;    */
+/*}*/
+
+/*#toplevel_page_hji-membership .wp-not-current-submenu:hover .wp-menu-image,*/
+/*#toplevel_page_hji-membership.wp-has-current-submenu .wp-menu-image*/
+/*{*/
+    /*background-position: 0px 0px !important;    */
+/*}*/
+
+/*.hji-membership-icon32*/
+/*{*/
+    /*background-image: url('../images/wp-icon32.png');*/
+    /*width: 32px;*/
+    /*height: 32px;*/
+    /*background-position: 0px 0px;    */
+/*}*/
+
+.hji-membership-settings .form-table th
+{
+    width: 75px;
+}
+
+.hji-membership-settings .hji-membership-invalid
+{
+    padding-left: 5px;
+    font-size: 11px;
+    color: #890000;
+}

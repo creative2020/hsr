@@ -1,0 +1,98 @@
+body { 
+	font-family: 'Georgia', 'Verdana', 'Arial'; 
+	font-size: 12pt; 
+	color: black;
+	line-height: 120%;
+}
+
+.center { 
+	width: 90%;
+	margin: 5% auto 5% auto;
+}
+
+#postTitle {
+	font-size: 25pt;
+	margin: 0px;
+	line-height: 100%;
+}
+
+#postMeta {
+	font-size: 13pt;
+	color: darkgray;
+	margin: 10px 0 0 0;
+}
+
+#postMeta strong {
+	font-weight: normal;
+	color: gray;
+}
+
+#postMeta a {
+	color: gray;
+	text-decoration: none;
+}
+
+#postLink {
+	background: url(../img/print_hbg.jpg) repeat-x center bottom;
+	padding-bottom: 25px;
+	color: gray;
+	margin: 15px 0 0 0;
+}
+
+#postContent {
+	background: url(../img/print_hbg.jpg) repeat-x center bottom;
+	padding-bottom: 10px;
+}
+
+
+#postContent p {
+	line-height: 150%;
+	font-size: 11pt;
+}
+
+#postContent p a {
+	text-decoration: none; 
+}
+
+#postContent h3 {
+	font-weight: normal;
+	font-size: 15pt;
+}
+
+#postContent ul {
+	font-size: 12pt;
+	line-height: 150%;
+}
+
+#blogInfo { 
+	color: gray;
+	margin: 15px 0 5px 0;
+}
+
+#printNow {
+	margin: 0px;
+}
+.img-polaroid {
+float: left;
+max-width: 150px;
+margin-right: 20px;
+max-height: 100px;
+}
+
+/** COUPON ADJUSTMENTS **/
+#coupon_printstyles { background:#fafafa; }
+#coupon_printstyles #postLink, #coupon_printstyles #postContent { background:none; }
+
+#coupon_printstyles .center { -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.3);
+box-shadow: 0 1px 1px rgba(0,0,0,0.3);
+border: 0;
+margin-bottom: 17px;
+font-family: Helvetica,Arial,San Serif;
+background-color: #fff;
+border-radius: 7px;
+padding: 50px;
+}
+
+.slides { list-style:none; }
+.slides li  img {  }
+#carousel { display:none; }

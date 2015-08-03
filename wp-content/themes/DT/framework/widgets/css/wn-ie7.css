@@ -1,0 +1,28 @@
+/*
+ * Widget Ninja
+ * (c) 2011. Web factory Ltd
+ */
+
+.tipsy {
+  width: 380px;
+}
+
+.tipsy-close {
+  float: right;
+  font-weight: bold;
+  margin: 2px 2px 2px -15px;
+  padding: 2px 7px 0 5px;
+  text-align: left;
+  z-index: 9999;
+  position: relative;
+}
+
+.tipsy-se .tipsy-arrow {
+  background-position: left bottom;
+  bottom: 0;
+  right: 25px;
+}
+
+.hook_options ul li {
+  min-width: 120px;
+}

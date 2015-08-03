@@ -1,0 +1,48 @@
+<!-- Modal -->
+<div class="modal fade hji-modal" id="<?php echo $id; ?>" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <?php
+            if ($title)
+            {
+                ?>
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title"><?php echo $title; ?></h4>
+                </div>
+            <?php
+            }
+            ?>
+
+            <div class="modal-body">
+                <!-- Modal Body -->
+                <div class="ajax-message"></div>
+                <?php echo $content; ?>
+            </div>
+            <?php
+            if ($close_btn || $save_btn)
+            {
+                ?>
+                <div class="modal-footer">
+                    <?php
+                    if ($close_btn)
+                    {
+                    ?>
+                        <button type="button" class="btn btn-default" data-dismiss="modal"><?php echo $close_btn_text;?></button>
+                    <?php
+                    }
+
+                    if ( $save_btn)
+                    {
+                    ?>
+                        <button id="<?php echo $save_btn_id; ?>" type="button" class="btn btn-primary"><?php echo $save_btn_text;?></button>
+                    <?php
+                    }
+                    ?>
+                </div>
+            <?php
+            }
+            ?>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->

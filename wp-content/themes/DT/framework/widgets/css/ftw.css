@@ -1,0 +1,253 @@
+/* Fancy Text Widget v1.1
+   (c) Web Factory 2011.
+   www.webfactoryltd.com
+*/
+
+/* =Postit widget main container -------------------------------------------------------------- */
+.ftw-container {
+  position:relative;
+  width:100%;
+  height:auto;
+  display:block;
+  clear:both;
+  margin-top:15px; /* Twentyten specific - disable if it causes spacing issues! */
+}
+
+/* =Postit widget layout/spacings & shadows/graphics/corners-------------------------------------------------------------- */
+.ftw-spacing {
+  padding:25px;
+}
+
+.ftw-footer {
+  width:100%;
+  display:block;
+  margin:0;
+}
+
+/* Footer shadows - left shadow */
+.ftw-footer-left {
+  background:url(../images/ftw-footer-left.png) no-repeat top center;
+  height:12px;
+  width:92px;
+  float:left;
+  position:relative;
+  z-index:5;
+}
+
+/* Footer shadows - right shadow */
+.ftw-footer-right {
+  background:url(../images/ftw-footer-right.png) no-repeat top center;
+  height:12px;
+  width:92px;
+  float:right;
+  position:relative;
+  z-index:5;
+}
+
+/* =Postit widget skins-------------------------------------------------------------- */
+.ftw-body {
+  width:100%;
+  display:block;
+  height:auto;
+  margin:0;
+  padding:0;
+}
+
+/* Fine sand paper */
+.ftw-body-sand-paper-1 {
+  background:url(../images/ftw-body-sand-paper-1.png) repeat;
+}
+
+/* More grainy sand paper */
+.ftw-body-sand-paper-2 {
+  background:url(../images/ftw-body-sand-paper-2.png) repeat;
+}
+
+/* Crumbled paper variant 1 */
+.ftw-body-crumbled-paper-1 {
+  background:url(../images/ftw-body-crumbled-paper-1.png) repeat;
+}
+
+/* Crumbled paper variant 2 */
+.ftw-body-crumbled-paper-2 {
+  background:url(../images/ftw-body-crumbled-paper-2.png) repeat;
+}
+
+/* Paper with horizontal lines */
+.ftw-body-horizontal-lines-paper {
+  background:url(../images/ftw-body-horizontal-lines-paper.png) repeat;
+}
+
+/* Paper with horizontal and vertical lines  */.ftw-body-horizontal-vertical-lines-paper {  background:url(../images/ftw-body-horizontal-vertical-lines-paper.png) repeat;}
+
+/* =Postit widget custom fonts-------------------------------------------------------------- */
+.ftw-font-the-girl-next-door {
+  font-family:'The Girl Next Door', arial, serif;
+  font-size:16px;
+  line-height:23px;
+}
+
+.ftw-font-sue-ellen-francisco {
+  font-family:'Sue Ellen Francisco', arial, serif;
+  font-size:23px;
+  line-height:28px;
+}
+
+.ftw-font-annie-use-your-telescope {
+  font-family:'Annie Use Your Telescope', arial, serif;
+  font-size:23px;
+  line-height:28px;
+}
+
+.ftw-font-waiting-for-the-sunrise {
+  font-family:'Waiting for the Sunrise', arial, serif;
+  font-size:23px;
+  line-height:28px;
+}
+
+.ftw-font-indie-flower {
+  font-family:'Indie Flower', arial, serif;
+  font-size:23px;
+  line-height:28px;
+}
+
+.ftw-font-architects-daughter {
+  font-family:'Architects Daughter', arial, serif;
+  font-size:23px;
+  line-height:28px;
+}
+
+.ftw-font-just-me-again-down-here {
+  font-family:'Just Me Again Down Here', arial, serif;
+  font-size:32px;
+  line-height:32px;
+}
+
+.ftw-font-just-another-hand {
+  font-family:'Just Another Hand', arial, serif;
+  font-size:27px;
+  line-height:32px;
+}
+
+.ftw-font-covered-by-your-grace {
+  font-family:'Covered By Your Grace', arial, serif;
+  font-size:23px;
+  line-height:28px;
+}
+
+.ftw-font-schoolbell {
+  font-family:'Schoolbell', arial, serif;
+  font-size:23px;
+  line-height:28px;
+}
+
+/* Holder graphics (pin, nail, etc...) */
+.ftw-graphics-right {
+  right:5px;
+}
+
+.ftw-graphics-left {
+  left:5px;
+}
+
+.ftw-graphics-right-bottom {
+  right:5px!important;
+  bottom:5px!important;
+  top:inherit!important;
+}
+
+.ftw-graphics-left-bottom {
+  left:5px!important;
+  bottom:5px!important;
+  top:inherit!important;
+}
+
+.ftw-graphics-tape-1 {
+  position:absolute;
+  top:-10px;
+  right:5px;
+  background:url(../images/ftw-tape-1.png) no-repeat top center;
+  height:65px;
+  width:23px;
+}
+
+.ftw-graphics-tape-2 {
+  position:absolute;
+  top:-15px;
+  right:5px;
+  background:url(../images/ftw-tape-2.png) no-repeat top center;
+  height:65px;
+  width:45px;
+}
+
+.ftw-graphics-pin-red {
+  position:absolute;
+  top:5px;
+  right:5px;
+  background:url(../images/ftw-pin-red.png) no-repeat top center;
+  height:65px;
+  width:45px;
+}
+
+.ftw-graphics-pin-green {
+  position:absolute;
+  top:5px;
+  right:5px;
+  background:url(../images/ftw-pin-green.png) no-repeat top center;
+  height:65px;
+  width:45px;
+}
+
+.ftw-graphics-pin-blue {
+  position:absolute;
+  top:5px;
+  right:5px;
+  background:url(../images/ftw-pin-blue.png) no-repeat top center;
+  height:65px;
+  width:45px;
+}
+
+.ftw-graphics-pin-white {
+  position:absolute;
+  top:5px;
+  right:5px;
+  background:url(../images/ftw-pin-white.png) no-repeat top center;
+  height:65px;
+  width:45px;
+}
+
+.ftw-graphics-pin-black {
+  position:absolute;
+  top:5px;
+  right:5px;
+  background:url(../images/ftw-pin-black.png) no-repeat top center;
+  height:65px;
+  width:45px;
+}
+
+.ftw-graphics-paperclip {
+  position:absolute;
+  top:-10px;
+  right:5px;
+  background:url(../images/ftw-paperclip.png) no-repeat top center;
+  height:65px;
+  width:45px;
+}
+
+.ftw-graphics-paperclip-oldschool {
+  position:absolute;
+  top:-20px;
+  right:5px;
+  background:url(../images/ftw-paperclip-oldschool.png) no-repeat top center;
+  height:65px;
+  width:45px;
+}
+
+.ftw-graphics-pinup {
+  position:absolute;
+  top:-10px;
+  right: 5px;
+  background: url(../images/ftw-pinup.png) no-repeat top center;
+  height: 32px;
+  width: 109px;
+}

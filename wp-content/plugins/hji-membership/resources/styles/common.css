@@ -1,0 +1,14 @@
+.hji-clearfix:after
+{
+    visibility: hidden;
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.hji-input-invalid
+{
+    background-color: #FFDFDF !important;
+    border-color: #C89797 !important;
+}
+

@@ -1,0 +1,250 @@
+/* Bluerr Tag ********************************************************************************************************/
+a.bluerr span {
+	background: transparent url('../images/tagged-left.png') no-repeat 0 0;
+	display: block;
+	line-height: 22px;
+	padding: 7px 0 5px 30px;
+	color: #fff;
+	font-size: 12px;
+}
+
+a.bluerr {
+	background: transparent url('../images/tagged-right.png') no-repeat top right;
+	display: block;
+	float: left;
+	height: 34px;
+	margin-right: 6px;
+	padding-right: 10px;
+}
+
+a.bluerr:hover span {
+	background-position: 0 -30px;
+}
+
+a.bluerr:hover {
+	background-position: right -30px;
+	text-decoration: none;
+}
+
+/* Orange Tag ********************************************************************************************************/
+a.orange span {
+	background: transparent url('../images/orange-left.png') no-repeat 0 0;
+	display: block;
+	line-height: 22px;
+	padding: 7px 0 5px 30px;
+	color: #fff;
+	font-size: 12px;
+}
+
+a.orange {
+	background: transparent url('../images/orange-right.png') no-repeat top right;
+	display: block;
+	float: left;
+	height: 34px;
+	margin-right: 6px;
+	padding-right: 10px;
+}
+
+a.orange:hover span {
+	background-position: 0 -30px;
+}
+
+a.orange:hover {
+	background-position: right -30px;
+	text-decoration: none;
+}
+
+/* Orange2 Tag ********************************************************************************************************/
+a.orange2 span {
+	background: transparent url('../images/orange2-left.png') no-repeat 0 0;
+	display: block;
+	line-height: 22px;
+	padding: 5px 0 5px 20px;
+	color: #fff;
+	font-size: 12px;
+}
+
+a.orange2 {
+	background: transparent url('../images/orange2-right.png') no-repeat top right;
+	display: block;
+	float: left;
+	height: 34px;
+	margin-right: 6px;
+	padding-right: 10px;
+	font-size: 12px;
+}
+
+a.orange2:hover span {
+	background-position: 0 -31px;
+}
+
+a.orange2:hover {
+	background-position: right -31px;
+	text-decoration: none;
+}
+
+/* Green Tag ********************************************************************************************************/
+a.green span {
+	background: transparent url('../images/green-left.png') no-repeat 0 0;
+	display: block;
+	line-height: 22px;
+	padding: 5px 0 5px 20px;
+	color: #fff;
+	font-size: 12px;
+}
+
+a.green {
+	background: transparent url('../images/green-right.png') no-repeat top right;
+	display: block;
+	float: left;
+	height: 34px;
+	margin-right: 6px;
+	padding-right: 10px;
+}
+
+a.green:hover span {
+	background-position: 0 -31px;
+}
+
+a.green:hover {
+	background-position: right -31px;
+	text-decoration: none;
+}
+
+/* Yellow Tag ********************************************************************************************************/
+a.yellow span {
+	background: transparent url('../images/yellow-left.png') no-repeat 0 0;
+	display: block;
+	line-height: 22px;
+	padding: 5px 0 5px 20px;
+	color: #fff;
+	font-size: 12px;
+}
+
+a.yellow {
+	background: transparent url('../images/yellow-right.png') no-repeat top right;
+	display: block;
+	float: left;
+	height: 34px;
+	margin-right: 6px;
+	padding-right: 10px;
+}
+
+a.yellow:hover span {
+	background-position: 0 -31px;
+}
+
+a.yellow:hover {
+	background-position: right -31px;
+	text-decoration: none;
+}
+
+/* Red Tag ********************************************************************************************************/
+a.red span {
+	background: transparent url('../images/red-left.png') no-repeat 0 0;
+	display: block;
+	line-height: 22px;
+	padding: 5px 0 5px 20px;
+	color: #fff;
+	font-size: 12px;
+}
+
+a.red {
+	background: transparent url('../images/red-right.png') no-repeat top right;
+	display: block;
+	float: left;
+	height: 34px;
+	margin-right: 6px;
+	padding-right: 10px;
+}
+
+a.red:hover span {
+	background-position: 0 -31px;
+}
+
+a.red:hover {
+	background-position: right -31px;
+	text-decoration: none;
+}
+
+/* Rounded Orange Tag & Utility ********************************************************************************************************/
+.extended-tags a.rounded span {
+	display: block;
+	line-height: 24px;
+	padding: 2px 0 5px 20px;
+	color: #fff;
+	font-size: 12px;
+}
+.extended-tags a.rounded {
+	display: block;
+	float: left;
+	height: 34px;
+	margin-right: 6px;
+	padding-right: 10px;
+}
+
+a.r-orange:hover span, a.r-green:hover span, a.r-blue:hover span, a.r-red:hover span, a.r-grey:hover span, a.r-cyan:hover span,
+a.t-orange:hover span, a.t-red:hover span, a.t-green:hover span, a.t-blue:hover span, a.t-grey:hover span, a.t-black:hover span, a.t-cyan:hover span {
+	background-position: 0 -31px;
+}
+
+a.r-orange:hover, a.r-green:hover, a.r-blue:hover, a.r-red:hover, a.r-grey:hover , a.r-cyan:hover,
+a.t-orange:hover, a.t-red:hover, a.t-green:hover, a.t-blue:hover, a.t-grey:hover, a.t-black:hover, a.t-cyan:hover  {
+	background-position: right -31px;
+	text-decoration: none;
+}
+/* Rounded Orange Tag *****************************************************************************************************/
+a.r-orange span { background: transparent url('../images/r-orange-left.png') no-repeat 0 0; }
+a.r-orange { background: transparent url('../images/r-orange-right.png') no-repeat top right;}
+
+/* Rounded Green Tag ******************************************************************************************************/
+a.r-green span { background: transparent url('../images/r-green-left.png') no-repeat 0 0;}
+a.r-green { background: transparent url('../images/r-green-right.png') no-repeat top right;}
+
+/* Rounded Blue Tag *******************************************************************************************************/
+a.r-blue span { background: transparent url('../images/r-blue-left.png') no-repeat 0 0;}
+a.r-blue { background: transparent url('../images/r-blue-right.png') no-repeat top right;}
+
+/* Rounded Red Tag ********************************************************************************************************/
+a.r-red span { background: transparent url('../images/r-red-left.png') no-repeat 0 0;}
+a.r-red { background: transparent url('../images/r-red-right.png') no-repeat top right;}
+
+/* Rounded Grey Tag ********************************************************************************************************/
+a.r-grey span { background: transparent url('../images/r-grey-left.png') no-repeat 0 0;}
+a.r-grey { background: transparent url('../images/r-grey-right.png') no-repeat top right;}
+
+/* Rounded Black Tag ********************************************************************************************************/
+a.r-black span { background: transparent url('../images/r-black-left.png') no-repeat 0 0;}
+a.r-black { background: transparent url('../images/r-black-right.png') no-repeat top right;}
+
+/* Rounded Cyan Tag ********************************************************************************************************/
+a.r-cyan span { background: transparent url('../images/r-cyan-left.png') no-repeat 0 0;}
+a.r-cyan { background: transparent url('../images/r-cyan-right.png') no-repeat top right;}
+
+/* Trimmed Orange Tag ********************************************************************************************************/
+a.t-orange span { background: transparent url('../images/t-orange-left.png') no-repeat 0 0; padding-left: 12px !important;}
+a.t-orange { background: transparent url('../images/t-orange-right.png') no-repeat top right;}
+
+/* Trimmed Red Tag ********************************************************************************************************/
+a.t-red span { background: transparent url('../images/t-red-left.png') no-repeat 0 0; padding-left: 12px !important;}
+a.t-red { background: transparent url('../images/t-red-right.png') no-repeat top right;}
+
+/* Trimmed Blue Tag ********************************************************************************************************/
+a.t-blue span { background: transparent url('../images/t-blue-left.png') no-repeat 0 0; padding-left: 12px !important;}
+a.t-blue { background: transparent url('../images/t-blue-right.png') no-repeat top right;}
+
+/* Trimmed Green Tag ********************************************************************************************************/
+a.t-green span { background: transparent url('../images/t-green-left.png') no-repeat 0 0; padding-left: 12px !important;}
+a.t-green { background: transparent url('../images/t-green-right.png') no-repeat top right;}
+
+/* Trimmed Cyan Tag ********************************************************************************************************/
+a.t-cyan span { background: transparent url('../images/t-cyan-left.png') no-repeat 0 0; padding-left: 12px !important;}
+a.t-cyan { background: transparent url('../images/t-cyan-right.png') no-repeat top right;}
+
+/* Trimmed Black Tag ********************************************************************************************************/
+a.t-black span { background: transparent url('../images/t-black-left.png') no-repeat 0 0; padding-left: 12px !important;}
+a.t-black { background: transparent url('../images/t-black-right.png') no-repeat top right;}
+
+/* Trimmed Grey Tag ********************************************************************************************************/
+a.t-grey span { background: transparent url('../images/t-grey-left.png') no-repeat 0 0; padding-left: 12px !important;}
+a.t-grey { background: transparent url('../images/t-grey-right.png') no-repeat top right;}

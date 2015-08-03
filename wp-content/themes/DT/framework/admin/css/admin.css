@@ -1,0 +1,30 @@
+.photo, .avatar { max-width:50px; max-height:50px; }
+.wp-list-table .row-actions { color:#C2C2C2 !important; } 
+.wp-list-table .row-actions, .sorting-indicator { display:block; visibility: visible !important; }
+/* =============================================================================
+  COUNT DOWN STYLES
+   ========================================================================== */
+.wp-list-table .hasCountdown { }
+.wp-list-table .timerbox {  padding-left:15px; display:block; font-size:12px; padding:5px; background:#fafafa; border:1px solid #ddd; border-radius:5px; color:#3A3A3A; margin-top: 10px; max-width:400px; }
+.wp-list-table .timerbox .nds { color:#ccc; }
+
+.btdata { margin-top:10px; }
+.btdata span { padding-right:10px; }
+
+.hasCountdown .countdown_rtl {	direction: rtl;}
+.hasCountdown .countdown_holding span {color: #888;}
+.hasCountdown .countdown_row {	clear: both;	width: 250px;	padding: 0px 0px;	text-align: center;}
+.hasCountdown .countdown_show1 .countdown_section {width: 98%;}
+.hasCountdown .countdown_show2 .countdown_section {	width: 48%;}
+.hasCountdown .countdown_show3 .countdown_section {	width: 32.5%;}
+.hasCountdown .countdown_show4 .countdown_section {	width: 24.5%;}
+.hasCountdown .countdown_show5 .countdown_section {	width: 19.5%;}
+.hasCountdown .countdown_show6 .countdown_section {	width: 16.25%;}
+.hasCountdown .countdown_show7 .countdown_section {	width: 14%;}
+.hasCountdown .countdown_section {	display: block;	float: left;	font-size: 12px;	text-align: center;}
+.hasCountdown .countdown_amount {	font-size: 16px;}
+.hasCountdown .countdown_descr {	display: block;	width: 100%;} 
+
+div.welcome-panel-column:first-child, #toplevel_page_revslider {display:none;}
+
+#slider5 { background:#FFF6D2 !important; }

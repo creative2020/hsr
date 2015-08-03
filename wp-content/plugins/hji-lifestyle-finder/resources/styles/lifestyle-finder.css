@@ -1,0 +1,10 @@
+#finder-wrapper
+{
+    border: 1px solid #CCCCCC;
+    margin-bottom: 1em;
+}
+
+#finder-wrapper iframe
+{
+    border: 0 none;
+}

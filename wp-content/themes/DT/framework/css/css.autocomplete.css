@@ -1,0 +1,117 @@
+#autocompleteme-suggestions img {max-height:46px; max-width:46px; }
+div.ss-wrap *
+{
+ 
+ 
+}
+
+input.ss-input
+{
+	display: block;
+}
+
+input.ss-input-thinking
+{
+	background-image: url(../img/loading1.gif);
+	background-repeat: no-repeat;
+	background-position: center right;
+}
+
+ul.ss-box
+{
+	/* Will be absolutely positioned in the JavaScript */
+  margin: 0 !important;
+	padding: 0 !important;
+	width: 304px;
+	z-index: 999999;
+	border: 1px solid #919191;
+	font-size: 11px;
+	background: #fff;
+	-moz-box-shadow: 2px 2px 5px 0 #c5c5c5;
+	list-style: none;
+}
+	
+	ul.ss-box li
+	{
+		float: left;
+		width: 100%;
+		clear: both;
+	}
+	
+	ul.ss-box li,
+	ul.ss-box li *
+	{
+		cursor: pointer;
+	}
+
+	ul.ss-box li.ss-header
+	{
+		margin-bottom:0px;	 
+		padding: 5px 0;
+		color: #505050;
+		background: #fefefe;
+		border-bottom:1px solid #ddd;
+	}
+
+		ul.ss-box li.ss-header p.ss-header-text
+		{
+			margin: 0 !important;
+			padding: 0 0 0 10px !important;
+			float: left;
+			font-size: 12px;
+			font-weight: bold;
+		}
+
+		ul.ss-box li.ss-header p.ss-header-limit
+		{
+			margin: 0 !important;
+			padding: 0 10px 0 0 !important;
+			float: right;
+			font-size: 11px;
+			font-weight: normal;
+		}
+
+	ul.ss-box li.ss-result
+	{
+		margin: 0 !important;
+		padding: 0 !important;
+		border-bottom: 1px solid #c5c5c5;
+	}
+
+		ul.ss-box li.ss-result a
+		{
+			display: block;
+			padding: 5px 10px;
+			text-decoration: none !important;
+			background: #fff;
+		}
+		
+		ul.ss-box li.ss-result a:hover
+		{
+			background: #fdfdfd; /* Also is set in JavaScript file for IE6 compatibility */
+		}
+
+		ul.ss-box li.ss-result img
+		{
+			margin-right: 12px;
+		}
+
+		ul.ss-box li.ss-result p
+		{
+			margin: 0 !important;
+			padding: 0 !important;
+			color: #444;
+			font-weight: normal;
+			font-size: 10px;
+		}
+
+			ul.ss-box li.ss-result p span.ss-result-title
+			{
+				display: inline !important;
+				margin: 0 !important;
+				padding: 0 !important;
+				font-size: 11px;
+				font-weight: bold;
+				color: #222;
+				line-height:20px;
+			}

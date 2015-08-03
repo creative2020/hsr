@@ -1,0 +1,66 @@
+<?php
+
+use \hji\membership\Membership;
+use \hji\membership\models\Settings;
+
+use \hji\common\utils\View;
+
+require_once(Membership::$dir . '/common/utils/View.php');
+
+?>
+
+<div class='hji-membership-settings wrap'>
+
+    <div class='icon32 hji-membership-icon32'><br/></div>
+
+    <h2>Settings</h2>
+
+<?php
+    echo View::render(Membership::$dir . '/common/views/notices.phtml',
+                      array('notices' => $notices));
+?>
+    <p />
+
+    <form method='post' action='options.php'>
+    
+        <?php settings_fields(Settings::KEY) ?>
+
+        <h3 class='title'>License Key</h3>
+        
+        <p>
+            Please enter your Home Junction license key.   If you don't know your license key,
+            please contact our support department at <a href='mailto:help@homejunction.com'>help@homejunction.com</a>
+            or at (858) 777-9533 Ext. 4.
+        </p>
+        
+        <table class='form-table'> 
+            <tr>
+                <th>License Key:</th>
+
+                <td>
+                    <input type='text' class='regular-text' id='hji-license-key' value='<?php echo $settings->getOption('license-key') ?>'
+                           name='<?php echo $settings->getInputName('license-key') ?>' />
+                        
+                    <span class='hji-membership-invalid'>
+                        INVALID
+                    </span>
+                </td>
+            
+            </tr>
+
+        </table>
+      
+        <p class='submit'>
+            <input type='submit' class='button button-primary' value='Save Settings' />
+        </p>
+
+    </form>
+    
+    <script type='text/javascript'>
+        jQuery(document).ready(function ()
+        {
+            HJI.Membership.Admin.manageSettings();
+        });
+    </script>
+    
+</div>
